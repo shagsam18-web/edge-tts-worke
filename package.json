@@ -1,0 +1,16 @@
+{
+  "name": "edge-tts-worke",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deploy Microsoft Edge TTS as an OpenAI-compatible API on your own Cloudflare account",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4",
+    "typescript": "^5",
+    "wrangler": "^4"
+  },
+  "license": "AGPL-3.0"
+}

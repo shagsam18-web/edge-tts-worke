@@ -1,0 +1,6 @@
+name = "edge-tts-worke"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+# API_KEY = "" # uncomment and set to enable auth
